@@ -410,7 +410,7 @@
 <script>
 // ─── CONFIG ────────────────────────────────────────────────────────────────────
 // 🔴 Paste your Google Client ID here (from console.cloud.google.com)
-const GOOGLE_CLIENT_ID = 'YOUR_GOOGLE_CLIENT_ID.apps.googleusercontent.com';
+const GOOGLE_CLIENT_ID = '232997495851-i8spmd0k75m0rfbs0t8gfohvgoqdkpg4.apps.googleusercontent.com';
 const FORMSPREE       = 'https://formspree.io/f/xqejyvgg';
 
 // ─── PRODUCTS ──────────────────────────────────────────────────────────────────
@@ -487,7 +487,7 @@ function err(id,show){ document.getElementById(id).classList[show?'add':'remove'
 
 // ─── GOOGLE SIGN IN (OAuth 2.0 Popup — works reliably) ────────────────────────
 function googleSignIn(){
-  if(GOOGLE_CLIENT_ID==='232997495851-i8spmd0k75m0rfbs0t8gfohvgoqdkpg4.apps.googleusercontent.com'){
+  if(GOOGLE_CLIENT_ID==='YOUR_GOOGLE_CLIENT_ID.apps.googleusercontent.com'){
     setAlert('⚠️ Google Sign-In not configured yet. Add your Client ID to the code or use Email/Password below.','error');
     return;
   }
